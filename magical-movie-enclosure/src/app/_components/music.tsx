@@ -1,3 +1,4 @@
+"use client";
 import { api } from "~/trpc/react";
 import React, { useEffect } from 'react';
 import "~/styles/Pages.css"

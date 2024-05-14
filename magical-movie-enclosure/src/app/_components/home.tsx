@@ -1,7 +1,9 @@
+"use client"
 import React from 'react';
 import "~/styles/Pages.css"
 
-const Home = () => {
+export default function Base() {
+
     return(
         <div>
             <div className="main-text">
@@ -11,5 +13,3 @@ const Home = () => {
         </div>
     );
 }
-
-export default Home;

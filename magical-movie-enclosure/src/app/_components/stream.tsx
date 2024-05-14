@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import "~/styles/Pages.css"
 import { useParams } from 'react-router-dom';

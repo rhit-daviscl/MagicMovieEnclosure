@@ -30,7 +30,7 @@
 .navbar-link {
   height: 100%;
   width: 100%;
-  text-align: center;
+  text-align: -webkit-center;
   align-content: center;
   color: #66FcF1;
   font-size: 1.5vw;
@@ -50,14 +50,16 @@
 }
 
 .selection {
-  width: 500px;
-  height: 400px;
-  max-width: 500px;
-  max-height: 400px;
+  width: 350px;
+  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
   font-size: 1.25vw;
   border:1px solid black;
   margin-left: 15px;
   margin-right: 15px;
   color: #66FcF1;
   background-color: #1F2833;
+  text-align: -webkit-center;
+  font-size: medium;
 }

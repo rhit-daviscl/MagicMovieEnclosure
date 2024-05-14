@@ -1,6 +1,5 @@
-"use client";
-import { api } from "~/trpc/react";
-import React, { useEffect, useState } from 'react';
+"use client"
+import React, { useEffect } from 'react';
 import "~/styles/Pages.css"
 import { Selection } from './selection';
 import { movieMusicItem } from "../page";
