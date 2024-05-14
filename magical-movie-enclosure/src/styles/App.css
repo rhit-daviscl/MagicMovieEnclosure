@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+}
+
+.main-background {
+  left: 0;
+  top: 0;
+  background-color: #C5C6C7;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 5vw;
+  background-color: #1F2833;
+}
+
+.navbar-link {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  color: #66FcF1;
+  font-size: 1.5vw;
+}
+
+.image {
+  width: 50%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+.selection-image {
+  width: 350px;
+  height: 300px;
+  max-height: 350px;
+  max-width: 300px;
+}
+
+.selection {
+  width: 500px;
+  height: 400px;
+  max-width: 500px;
+  max-height: 400px;
+  font-size: 1.25vw;
+  border:1px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #66FcF1;
+  background-color: #1F2833;
+}
