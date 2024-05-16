@@ -1,5 +1,27 @@
 CSSE 432 Project: Magic Movie Enclosure
 
+This project is a Typescript, Next.js, React, and tRPC design that has a Prisma database hosted in its own docker container.
+
+I thought up this project as a way to learn how netflix would host and stream their shows to their audiences.
+
+What I do is upload a video file to an S3 bucket and an image file to the bucket.
+
+Then I created a AWS CloudFront which is AWS's way of streaming S3 files.
+
+With the CloudFront connected to my S3 bucket, Using the link it provides me and the S3 bucket's key, I can use that url to stream my file.
+
+In my web app, I use a "video" component with the url to that CloudFront as the main source.
+
+Then depending on the databases url stored locally, it will stream the requested movie/music that you selected.
+
+_Future goals/goals if the project team was bigger:_
+
+For this to be in a larger scale, I would have deployed the project and had a global database that stored all my links.
+I would have also encrpyted my links so that no one could copy my viewing URL and watch it without my website.
+
+
+__Guide for local setup__
+
 To start the project, go into a terminal and make your way into the cloned repo.
 
 Then type:
